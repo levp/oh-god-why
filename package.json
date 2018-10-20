@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "oh-god-why",
+  "author": "Levi Perelman",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "browser-sync start --server ./website/ --files ./website/ --no-online --no-ui --no-ghost-mode"
+  },
+  "homepage": "https://github.com/levp/oh-god-why#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levp/oh-god-why.git"
+  },
+  "bugs": {
+    "url": "https://github.com/levp/oh-god-why/issues"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "typescript": "^3.1.3"
+  }
+}
